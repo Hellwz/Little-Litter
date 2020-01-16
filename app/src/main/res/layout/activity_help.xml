@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        
+        <TextView
+            android:id="@+id/tx_1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="帮助中心"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="#D8E6C7"
+
+            />
+
+        
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:src="@drawable/help"
+            android:layout_below="@id/tx_1"
+            android:background="#D8E6C7"/>
+
+        <TextView
+            android:id="@+id/tx_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="常见问题"
+            android:background="#EEEEEE"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/gif"
+            />
+
+        <TextView
+            android:id="@+id/tx_3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="如何拍照才能提高识别率？"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tx_2"
+            />
+
+        <TextView
+            android:id="@+id/tx_4"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="          拍照时尽量做到目标是图片中的主体，画面不应出现过
+多无关事物，光线不应过暗，垃圾品种尽量单一，不应有大
+幅的遮挡物，垃圾外形尽量常见的，以随手拍摄为主，不能
+过于艺术化，不应有后期图片处理效果。"
+            android:background="#EEEEEE"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tx_3"
+            />
+
+        <TextView
+            android:id="@+id/tx_5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="有些垃圾系统识别不准确怎么办？"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tx_4"
+            />
+
+        <TextView
+            android:id="@+id/tx_6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="          如果发现有些垃圾软件自识别不准确，可以求助人工识
+别，用户拨打帮助热线，这样开发人员就会得知具体情况，并尝试进行帮助。"
+            android:background="#EEEEEE"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tx_5"
+            />
+
+        <TextView
+            android:id="@+id/tx_7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="为什么要成为APP用户？"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tx_6"
+            />
+
+        <TextView
+            android:id="@+id/tx_8"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="          成为注册用户后以前识别的历史记录会得到保存。同时
+还能享受APP更多的独特功能。APP以辅助用户进行垃圾分类
+为出发点，期待能通过这款软件普及常识，提升用户的垃圾
+分类意识。"
+            android:background="#EEEEEE"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tx_7"
+            />
+        <TextView
+            android:id="@+id/tx_9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="APP以后还会有更多功能吗？"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tx_8"
+            />
+        <TextView
+            android:id="@+id/tx_10"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="          这个版本只是1.0版本，在APP进一步推广后，我们会
+继续更新以下功能：加入更多地区的分类标准（当前系统只
+适用于成都市），加入更多辅助功能以帮助用户更好地进行
+垃圾分类。"
+            android:background="#EEEEEE"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tx_9"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/tx_10">
+
+            <Button
+            android:id="@+id/H_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:text="动态"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/button_click_green"
+            android:layout_marginLeft="2dp"/>
+
+            <Button
+                android:id="@+id/H_static"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:text="静态"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="@drawable/button_click_green"
+                android:layout_marginLeft="5dp"/>
+
+            <Button
+                android:id="@+id/H_help"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:text="帮助"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="@drawable/button_click_green"
+                android:layout_marginLeft="5dp"/>
+
+            <Button
+                android:id="@+id/H_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:text="我的"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="@drawable/button_click_green"
+                android:layout_marginLeft="5dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

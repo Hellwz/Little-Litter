@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\AndroidStudio_project\tflite\app\src\main\assets"><file name="garbage1.tflite" path="D:\AndroidStudio_project\tflite\app\src\main\assets\garbage1.tflite"/><file name="labels.txt" path="D:\AndroidStudio_project\tflite\app\src\main\assets\labels.txt"/></source><source path="D:\AndroidStudio_project\tflite\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\AndroidStudio_project\tflite\app\src\debug\assets"/></dataSet></merger>
